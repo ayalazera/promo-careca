@@ -1,0 +1,36 @@
+{
+  "name": "promo-autonomo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma de promoções afiliadas com WhatsApp não oficial + regras anti-ban",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "seed": "tsx src/db/seed.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.2.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/sharp": "^0.31.1",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}

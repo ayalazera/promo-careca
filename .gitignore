@@ -1,0 +1,16 @@
+node_modules/
+dist/
+data/*.db
+data/*.db-*
+data/whatsapp-auth/
+data/backups/
+data/pdp-proof/
+data/brand/
+.env
+*.log
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.pem
+*.key
+credentials*.json
